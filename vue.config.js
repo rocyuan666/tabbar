@@ -9,5 +9,7 @@ module.exports = {
                 'components': '@/components'
             }
         }
-    }
+    },
+    // 解决打包后路径问题
+    publicPath: './'
 }
